@@ -14,8 +14,9 @@
   <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
 
-  <name>TODO Plugin</name>
-  <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+  <name>DX Connector</name>
+  <description>This plugin sends build information to the https://getdx.com/ platform.</description>
+  <url>https://github.com/get-dx/datacloud-jenkins</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -35,7 +36,7 @@
 
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.version>2.414.3</jenkins.version>
-    <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+    <gitHubRepo>get-dx/datacloud-jenkins</gitHubRepo>
 
     <spotless.check.skip>false</spotless.check.skip>
   </properties>

@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    TODO
+   This plugin sends build information to the <a href="https://getdx.com/">DX  platform</a>. 
 </div>
